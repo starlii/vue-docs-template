@@ -1,4 +1,4 @@
-# hello-world
+# vue-docs-template
 
 ## Project setup
 ```

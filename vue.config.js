@@ -6,6 +6,18 @@ module.exports = {
     }
   },
   publicPath: './',
+  devServer: {
+    port: 3001
+  },
+  pwa: {
+    iconPaths: {
+      favicon32: './icon.ico',
+      favicon16: './icon.ico',
+      appleTouchIcon: './icon.ico',
+      maskIcon: './icon.ico',
+      msTileImage: './icon.ico'
+    }
+  },
   chainWebpack: config => {
     config.module
       .rule('md1')

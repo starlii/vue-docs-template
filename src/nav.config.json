@@ -1,18 +1,6 @@
 {
   "zh-CN": [
     {
-      "name": "更新日志",
-      "path": "/changelog"
-    },
-    {
-      "name": "Element React",
-      "href": "https://elemefe.github.io/element-react/"
-    },
-    {
-      "name": "Element Angular",
-      "href": "https://element-angular.faas.ele.me/"
-    },
-    {
       "name": "开发指南",
       "children": [
         {
@@ -40,8 +28,8 @@
               "title": "Button 按钮"
             }, 
             {
-              "path": "/divider", 
-              "title": "Divider 分割线"
+              "path": "/field", 
+              "title": "输入框"
             }
           ]
         }

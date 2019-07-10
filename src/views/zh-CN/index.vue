@@ -15,70 +15,14 @@
         :style="{
           height: mainImgOffset + 'px'
         }"
-      >
-        <img :src="themeImg2" alt="" />
-      </div>
+      />
     </div>
 
     <div style="text-align: center">
-      <el-button type="success" icon="el-icon-s-promotion">马上开始</el-button>
+      <router-link tag="el-button" to="/zh-CN/component/installation"
+        >马上开始</router-link
+      >
     </div>
-
-    <!-- <div class="cards">
-      <ul class="container">
-        <li>
-          <div class="card">
-            <img :src="guideImg" alt="" />
-            <h3>指南</h3>
-            <p>
-              了解设计指南，帮助产品设计人员搭建逻辑清晰、结构合理且高效易用的产品。
-            </p>
-            <router-link active-class="active" to="/zh-CN/guide/design" exact>
-              查看详情
-            </router-link>
-          </div>
-        </li>
-        <li>
-          <div class="card">
-            <img :src="componentImg" alt="" />
-            <h3>组件</h3>
-            <p>
-              使用组件 Demo
-              快速体验交互细节；使用前端框架封装的代码帮助工程师快速开发。
-            </p>
-            <router-link
-              active-class="active"
-              to="/zh-CN/component/layout"
-              exact
-            >
-              查看详情
-            </router-link>
-          </div>
-        </li>
-        <li>
-          <div class="card">
-            <img :src="themeIconImg" alt="" />
-            <h3>主题</h3>
-            <p>在线主题编辑器，可视化定制和管理站点主题、组件样式</p>
-            <router-link active-class="active" to="/zh-CN/theme" exact>
-              查看详情
-            </router-link>
-          </div>
-        </li>
-        <li>
-          <div class="card">
-            <img :src="resourceImg" alt="" />
-            <h3>资源</h3>
-            <p>
-              下载相关资源，用其快速搭建页面原型或高保真视觉稿，提升产品设计效率。
-            </p>
-            <router-link active-class="active" to="/zh-CN/resource" exact>
-              查看详情
-            </router-link>
-          </div>
-        </li>
-      </ul>
-    </div> -->
   </div>
 </template>
 
@@ -87,12 +31,6 @@ export default {
   data() {
     return {
       themeImg1: require('@/assets/images/theme-index-blue.png'),
-      themeImg2: require('@/assets/images/theme-index-blue.png'),
-      guideImg: require('@/assets/images/guide.png'),
-      componentImg: require('@/assets/images/component.png'),
-      themeIconImg: require('@/assets/images/theme-index-icon.svg'),
-      resourceImg: require('@/assets/images/theme-index-icon.svg'),
-      introImg: require('@/assets/images/theme-index-icon.svg'),
       mainImgOffset: 0
     }
   }
@@ -275,9 +213,9 @@ export default {
       display: none;
     }
   }
-  .jumbotron {
-    display: none;
-  }
+  // .jumbotron {
+  //   display: none;
+  // }
 }
 
 @media (max-width: 768px) {

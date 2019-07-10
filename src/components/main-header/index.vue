@@ -5,7 +5,7 @@
         <h1>
           <router-link to="/">
             <slot>
-              logo
+              Vue Component Docs
               <!-- <img :src="logo" alt="logo" class="nav-logo" />
               <img :src="logoSmall" alt="logo" class="nav-logo-small" /> -->
             </slot>

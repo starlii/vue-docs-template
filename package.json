@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "release": "standard-version"
+    "release": "standard-version", 
+    "lib": "vue-cli-service build --target lib --name starUI src/packages/index.js"
+    
   },
   "dependencies": {
     "commitizen": "^3.1.1",

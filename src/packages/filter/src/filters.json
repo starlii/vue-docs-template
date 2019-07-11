@@ -1,0 +1,18 @@
+{
+  "types":{
+    "manager": ["Category","Brand","Markup","Margin","Cost Price","OOSDS","Sold QTY","PO Frequency","Transaction","IS QTY","OOST","BISD",
+      "Creation Date","Device Released Date","Device","Item Labels"],
+    "detail": ["test","Markup","Margin","Cost Price","OOSDS","Sold QTY","PO Frequency","Transaction","IS QTY","OOST","BISD",
+      "Creation Date","Device Released Date","Device","Item Labels"],
+    "time": ["Creation Date", "Device Released Date","test"],
+    "timeAndValue": [ "OOSDS", "Sold QTY", "PO Frequency", "Transaction", "OOST", "BISD"],
+    "device": ["Device"],
+    "value": ["Markup","Margin","Cost Price","IS QTY"],
+    "label": ["Item Labels"],
+    "reOrder": ["Re-Order Point"],
+    "valueType": {
+      "prefix": {"Markup": "$", "Cost Price": "$"},
+      "suffix": {"Margin": "%"}
+    }
+  }
+}

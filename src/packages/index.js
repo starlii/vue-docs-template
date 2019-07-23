@@ -7,6 +7,7 @@ import FilterSelect from './filter-select'
 import Input from './input'
 import LineTitle from './line-title'
 import Page from './page'
+import Filter2 from './filter-2'
 
 const components = [
   Divider,
@@ -17,7 +18,8 @@ const components = [
   FilterSelect,
   Input,
   LineTitle,
-  Page
+  Page,
+  Filter2
 ]
 
 const install = Vue => {

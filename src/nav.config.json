@@ -25,11 +25,11 @@
             },
             {
               "path": "/button",
-              "title": "Button 按钮"
+              "title": "SST Button"
             }, 
             {
-              "path": "/field", 
-              "title": "输入框"
+              "path": "/filter", 
+              "title": "filter 组件"
             }
           ]
         }

@@ -11,7 +11,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "release": "standard-version",
-    "lib": "vue-cli-service build --target lib --name starUI src/packages/index.js"
+    "lib": "npm run lint && vue-cli-service build --target lib --name starUI src/packages/index.js"
   },
   "dependencies": {
     "commitizen": "^3.1.1",
@@ -21,6 +21,7 @@
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
+    "vuelidate": "^0.7.4",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
